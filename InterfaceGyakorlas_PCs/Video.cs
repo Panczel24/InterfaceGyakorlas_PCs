@@ -6,16 +6,26 @@ using System.Threading.Tasks;
 
 namespace InterfaceGyakorlas_PCs
 {
-        public class Video
-        {
-            public string title;
-            public int length;
+    internal class Video : IContent
+    {
+        private string title;
+        private int length;
 
-            public Video(string title, int length)
-            {
-                this.title = title;
-                this.length = length;
-            }
+        public Video(string title, int length)
+        {
+            this.title = title;
+            this.length = length;
         }
+
+        public string getTitle()
+        {
+            return title;
+        }
+
+        public int getLenght()
+        {
+            return length;
+        }
+    }
 
 }

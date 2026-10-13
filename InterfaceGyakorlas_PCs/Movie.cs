@@ -17,12 +17,12 @@ namespace InterfaceGyakorlas_PCs
 
         public int getLenght()
         {
-            return video.title.Length;
+            return video.getLenght();
         }
 
         public string getTitle()
         {
-            return video.title;
+            return video.getTitle();
         }
 
     }

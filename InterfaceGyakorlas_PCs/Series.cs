@@ -23,7 +23,7 @@ namespace InterfaceGyakorlas_PCs
 
             foreach (Video video in videos)
             {
-                total = total + video.length;
+                total = total + video.getLenght();
             }
 
             return total;
