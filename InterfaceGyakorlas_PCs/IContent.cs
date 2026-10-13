@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace InterfaceGyakorlas_PCs
+{
+    internal interface IContent
+    {
+
+        string getTitle();
+        int getLenght();
+
+    }
+}
